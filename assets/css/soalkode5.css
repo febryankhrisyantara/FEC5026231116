@@ -1,15 +1,11 @@
-.homepage {
-  background-color: rgb(203, 207, 211);
-  font-size: 23px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: bold;
+body {
+  font-family: "Poppins", sans-serif;
 }
 
-.sedangsewa {
-  font-family: arial;
-  font-size: 20;
-}
-
-.custom-gap .col-3 {
-  margin-right: 5px; /* Jarak horizontal */
+.gambar-logo {
+  width: 60px; /* Sesuaikan ukuran gambar */
+  height: 60px; /* Pastikan tinggi dan lebar sama untuk bentuk lingkaran */
+  border: 2px solid black; /* Atur warna dan ketebalan garis luar */
+  border-radius: 50%; /* Membuat gambar menjadi lingkaran */
+  object-fit: cover; /* Menjaga proporsi gambar */
 }
